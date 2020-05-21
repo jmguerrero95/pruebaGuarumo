@@ -1,0 +1,147 @@
+/*Inicio cintillo y navbar*/
+#cintillo_azul
+{
+	background-color: #0a496c;
+	border-bottom: #ddb103 8px solid
+}
+#cintillo
+{
+	z-index: 1;
+	position: relative;
+	margin-top: -45px;
+}
+#img_cintillo
+{
+	width: 60%;
+}
+#navbarSupportedContent
+{
+	padding-left: 2%;
+}
+.item-space
+{
+	padding-left: 37px;
+}
+#item-space-one
+{
+	padding-right: 5%;
+}
+@media only screen and (max-width: 1400px) {
+	.estilo_enlaces
+	{
+		color: black;
+		font-size: 1.2vw !important;
+	}	
+}
+.estilo_enlaces
+{
+	color: black;
+	font-size: 1vw;
+}
+.estilo_enlaces:hover
+{
+	color: black;
+	font-weight: bold;	
+}
+/*Fin cintillo y navbar*/
+/*************************************************************************/
+
+/*Inicio carousel*/
+.superficial{
+	margin-top: -64px;
+	border-bottom: #ddb103 8px solid;
+}
+.text_carousel1
+{
+	font-size: 1.5vw;
+}
+.text_carousel2
+{
+	font-size: 2.5vw;
+}
+.tex_carousel{
+	margin-bottom: 8%;
+}
+/*Fin carousel*/
+/************************************************************************/
+
+/*Inicio cards*/
+.seccion-cards
+{
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 27px 0px 15px 1px rgba(0,0,0,0.34);
+    -moz-box-shadow: 27px 0px 15px 1px rgba(0,0,0,0.34);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.34);
+    -ms-flex: 0 0 66.666667%;
+}
+.card-1
+{
+	margin-left: 10%;
+    margin-right: 10%;
+}
+.mar-izq
+{
+	padding-left: 11%;
+}
+.mar-der
+{
+	padding-right: 11%;
+}
+@media only screen and (max-width: 1199px) {
+	.mar-izq
+	{
+		margin-left: 0.7%;
+    	padding-right: 11.9%
+	}
+	.mar-der
+	{
+		margin-left: 9.7%;
+    	padding-right: 20.7%;
+	}
+}
+.card_img
+{
+	width: 122%;
+}
+.text-colum
+{
+	padding-left: 18%;
+}
+/*Fin cards*/
+/***********************************************************************/
+.ico_audioRad{
+	padding: 35px;
+}
+.botones
+{
+	text-align: center;
+}
+.estil_botones{
+	background-color:#d4b04f;
+	border:0;
+}
+
+
+.cintillo_footer{
+	background-image: url("../img/panoramicaq.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.fondo_footer{
+	background-image: url("../img/panoramica2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100px;
+}
+.cintillo_inferior
+{
+	z-index: 1;
+	position: relative;
+	margin-top: -64px;
+}
+.final
+{
+    border-bottom: #ddb103 8px solid;
+}
